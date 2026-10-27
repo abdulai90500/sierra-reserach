@@ -1,0 +1,2221 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sierra Research &amp; Innovation Hub (SiRI-Hub) — Research. Innovate. Impact.</title>
+  <meta name="description" content="SiRI-Hub is a premier pan-African digital innovation, applied research, and youth empowerment hub advancing digital skills, evidence-based policy, and sustainable community wellbeing.">
+  <meta name="keywords" content="SiRI-Hub, Research, Innovate, Impact, Tech4Teachers, Tech4Student, Youth Digital Tech Clubs, ASRHR, Digital Education">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- ======================================================================
+       TOP INTERACTIVE DROPDOWN PREVIEW BAR
+       "SELECT A MENU ITEM TO PREVIEW ITS DROPDOWN"
+       ====================================================================== -->
+  <aside class="dropdown-preview-bar" aria-label="Navigation Inspector and Previewer">
+    <div class="preview-bar-inner">
+      <div class="preview-bar-title">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+        <span>Select a menu item to preview its dropdown:</span>
+      </div>
+      
+      <div class="preview-bar-selector" role="toolbar" aria-label="Menu Item Dropdown Preview Selector">
+        <button class="preview-pill-btn active" data-target-menu="home">Home</button>
+        <button class="preview-pill-btn" data-target-menu="about">About Us</button>
+        <button class="preview-pill-btn" data-target-menu="focus">Focus Areas</button>
+        <button class="preview-pill-btn" data-target-menu="programmes">Programmes & Opportunities</button>
+        <button class="preview-pill-btn" data-target-menu="research">Research & Publications</button>
+        <button class="preview-pill-btn" data-target-menu="impact">Our Impact</button>
+        <button class="preview-pill-btn" data-target-menu="partnerships">Partnerships</button>
+        <button class="preview-pill-btn" data-target-menu="news">News & Insights</button>
+        <button class="preview-pill-btn" data-target-menu="contact">Contact Us</button>
+      </div>
+
+      <div class="preview-bar-actions">
+        <button id="theme-toggle-btn" class="theme-toggle-btn" aria-label="Toggle Dark/Light Mode">
+          <span id="theme-icon">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </span>
+          <span id="theme-text">Dark Mode</span>
+        </button>
+
+        <button class="setup-launcher-btn" aria-label="Open Launch Readiness Checklist">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+          <span>Launch Readiness</span>
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ======================================================================
+       MAIN SITE HEADER & ACCESSIBLE DROPDOWN NAVIGATION
+       ====================================================================== -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <!-- Official Sierra Research & Innovation Hub Logo -->
+      <a href="#home" class="brand-logo-wrap" aria-label="SiRI-Hub — Sierra Research &amp; Innovation Hub">
+        <img src="assets/images/siri-hub-logo.svg" alt="Sierra Research &amp; Innovation Hub (SiRI-Hub)" class="brand-logo-img light-logo">
+        <img src="assets/images/siri-hub-logo-dark.svg" alt="Sierra Research &amp; Innovation Hub (SiRI-Hub)" class="brand-logo-img dark-logo">
+      </a>
+
+      <!-- Desktop Navigation Menu (9 Top-Level Categories with Subsections) -->
+      <nav class="nav-desktop" aria-label="Primary Navigation">
+        
+        <!-- 1. Home Dropdown -->
+        <div class="nav-item has-dropdown active" data-menu="home">
+          <a href="#home" class="nav-link" aria-haspopup="true" aria-expanded="false">
+            <span>Home</span>
+            <svg class="dropdown-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          </a>
+          <div class="dropdown-menu">
+            <div class="dropdown-section-title">Homepage Highlights</div>
+            <a href="#home" class="dropdown-item">
+              <div class="item-icon-box">🏠</div>
+              <div class="item-content">
+                <span class="item-title">Executive Hero Overview</span>
+                <span class="item-desc">Core mission & four strategic CTAs</span>
+              </div>
+            </a>
+            <a href="#pillars-section" class="dropdown-item">
+              <div class="item-icon-box">🏛️</div>
+              <div class="item-content">
+                <span class="item-title">The Big Five Pillars</span>
+                <span class="item-desc">Strategic focus areas & methodology</span>
+              </div>
+            </a>
+            <a href="#key-projects-section" class="dropdown-item">
+              <div class="item-icon-box">🚀</div>
+              <div class="item-content">
+                <span class="item-title">Four Key Projects</span>
+                <span class="item-desc">Tech4Teachers, Tech4Student, ASRHR & Research</span>
+              </div>
+            </a>
+            <a href="#impact-counter-strip" class="dropdown-item">
+              <div class="item-icon-box">📊</div>
+              <div class="item-content">
+                <span class="item-title">Verified Impact Counters</span>
+                <span class="item-desc">15,000+ youth, educators & institutions</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- 2. About Us Dropdown -->
+        <div class="nav-item has-dropdown" data-menu="about">
+          <a href="#about" class="nav-link" aria-haspopup="true" aria-expanded="false">
+            <span>About Us</span>
+            <svg class="dropdown-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          </a>
+          <div class="dropdown-menu mega-menu">
+            <div>
+              <div class="dropdown-section-title">Institutional Identity</div>
+              <a href="#about" class="dropdown-item" onclick="switchAboutTab('tab-who-we-are')">
+                <div class="item-icon-box">🌐</div>
+                <div class="item-content">
+                  <span class="item-title">Who We Are</span>
+                  <span class="item-desc">Pan-African research & innovation nexus</span>
+                </div>
+              </a>
+              <a href="#about" class="dropdown-item" onclick="switchAboutTab('tab-history')">
+                <div class="item-icon-box">📜</div>
+                <div class="item-content">
+                  <span class="item-title">Our History & Background</span>
+                  <span class="item-desc">Foundational milestones and evolution</span>
+                </div>
+              </a>
+              <a href="#about" class="dropdown-item" onclick="switchAboutTab('tab-vision-mission')">
+                <div class="item-icon-box">🎯</div>
+                <div class="item-content">
+                  <span class="item-title">Vision, Mission & Core Values</span>
+                  <span class="item-desc">Evidence, integrity, equity & impact</span>
+                </div>
+              </a>
+              <a href="#about" class="dropdown-item" onclick="switchAboutTab('tab-theory-of-change')">
+                <div class="item-icon-box">🔄</div>
+                <div class="item-content">
+                  <span class="item-title">Approach & Theory of Change</span>
+                  <span class="item-desc">Systemic framework driving policy & practice</span>
+                </div>
+              </a>
+            </div>
+            <div>
+              <div class="dropdown-section-title">Governance & Structure</div>
+              <a href="#about" class="dropdown-item" onclick="switchAboutTab('tab-structure')">
+                <div class="item-icon-box">🏢</div>
+                <div class="item-content">
+                  <span class="item-title">Organisational Structure</span>
+                  <span class="item-desc">Executive council & regional directorates</span>
+                </div>
+              </a>
+              <a href="#about" class="dropdown-item" onclick="switchAboutTab('tab-team')">
+                <div class="item-icon-box">👥</div>
+                <div class="item-content">
+                  <span class="item-title">Our Team & Departments</span>
+                  <span class="item-desc">Researchers, engineers & community leads</span>
+                </div>
+              </a>
+              <a href="#about" class="dropdown-item" onclick="switchAboutTab('tab-policies')">
+                <div class="item-icon-box">📑</div>
+                <div class="item-content">
+                  <span class="item-title">Institutional Policies & Documents</span>
+                  <span class="item-desc">Ethics, safeguarding & data compliance</span>
+                </div>
+              </a>
+              <div class="dropdown-featured-card" style="margin-top: 0.5rem;">
+                <h5>Institutional Integrity</h5>
+                <p>Governed by strict ethical standards and data protection protocols.</p>
+                <a href="#about" onclick="switchAboutTab('tab-policies')">View Governance Policies →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Focus Areas Dropdown (The Big Five Pillars) -->
+        <div class="nav-item has-dropdown" data-menu="focus">
+          <a href="#focus-areas" class="nav-link" aria-haspopup="true" aria-expanded="false">
+            <span>Focus Areas</span>
+            <svg class="dropdown-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          </a>
+          <div class="dropdown-menu mega-menu-pillars">
+            <div>
+              <div class="dropdown-section-title">The Big Five Pillars</div>
+              <a href="#focus-areas" class="dropdown-item">
+                <div class="item-icon-box" style="color: var(--pillar-1); background: var(--green-50);">01</div>
+                <div class="item-content">
+                  <span class="item-title">Digital Education & Skills</span>
+                  <span class="item-desc">Tech4Teachers & blended curriculum design</span>
+                </div>
+              </a>
+              <a href="#focus-areas" class="dropdown-item">
+                <div class="item-icon-box" style="color: var(--pillar-2); background: #ffe4e6;">02</div>
+                <div class="item-content">
+                  <span class="item-title">ASRHR & Community Wellbeing</span>
+                  <span class="item-desc">Adolescent sexual health, rights & youth care</span>
+                </div>
+              </a>
+              <a href="#focus-areas" class="dropdown-item">
+                <div class="item-icon-box" style="color: var(--pillar-3); background: #e0e7ff;">03</div>
+                <div class="item-content">
+                  <span class="item-title">Applied Research & Policy</span>
+                  <span class="item-desc">Data-driven evidence, field surveys & briefs</span>
+                </div>
+              </a>
+              <a href="#focus-areas" class="dropdown-item">
+                <div class="item-icon-box" style="color: var(--pillar-4); background: #fef3c7;">04</div>
+                <div class="item-content">
+                  <span class="item-title">Youth Tech Clubs & Entrepreneurship</span>
+                  <span class="item-desc">Coding labs, robotics & grassroots incubators</span>
+                </div>
+              </a>
+              <a href="#focus-areas" class="dropdown-item">
+                <div class="item-icon-box" style="color: var(--pillar-5); background: #e0f2fe;">05</div>
+                <div class="item-content">
+                  <span class="item-title">Strategic Partnerships & Systems</span>
+                  <span class="item-desc">Institutional scaling, ministries & donor allies</span>
+                </div>
+              </a>
+            </div>
+            <div>
+              <div class="dropdown-featured-card">
+                <h5>Thematic Alignment</h5>
+                <p>Each pillar operates under distinct performance indicators tied to regional development targets and evidence frameworks.</p>
+                <a href="#focus-areas">Explore Full Pillar Framework →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Programmes & Opportunities Dropdown -->
+        <div class="nav-item has-dropdown" data-menu="programmes">
+          <a href="#programmes" class="nav-link" aria-haspopup="true" aria-expanded="false">
+            <span>Programmes &amp; Opportunities</span>
+            <svg class="dropdown-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          </a>
+          <div class="dropdown-menu">
+            <div class="dropdown-section-title">Flagship Initiatives</div>
+            <a href="#project-tech4teachers" class="dropdown-item">
+              <div class="item-icon-box">👨‍🏫</div>
+              <div class="item-content">
+                <span class="item-title">Tech4Teachers</span>
+                <span class="item-desc">Empowering educators with digital tools</span>
+              </div>
+            </a>
+            <a href="#project-tech4students" class="dropdown-item">
+              <div class="item-icon-box">💻</div>
+              <div class="item-content">
+                <span class="item-title">Tech4Student &amp; Youth Tech Clubs</span>
+                <span class="item-desc">Coding, hardware prototyping & robotics</span>
+              </div>
+            </a>
+            <div class="dropdown-section-title" style="margin-top: 0.5rem;">Applications &amp; Events</div>
+            <a href="#programmes" class="dropdown-item">
+              <div class="item-icon-box">📋</div>
+              <div class="item-content">
+                <span class="item-title">Open Opportunities</span>
+                <span class="item-desc">Fellowships, mentorships & internships</span>
+              </div>
+            </a>
+            <a href="#programmes" class="dropdown-item">
+              <div class="item-icon-box">🗓️</div>
+              <div class="item-content">
+                <span class="item-title">Training &amp; Event Listings</span>
+                <span class="item-desc">Workshops, masterclasses & summits</span>
+              </div>
+            </a>
+            <a href="javascript:void(0)" class="dropdown-item open-application-btn" data-programme="General Registration">
+              <div class="item-icon-box" style="background: var(--green-100); color: var(--green-600);">📝</div>
+              <div class="item-content">
+                <span class="item-title">Course Registration</span>
+                <span class="item-desc">Register for active training cohorts</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- 5. Research & Publications Dropdown -->
+        <div class="nav-item has-dropdown" data-menu="research">
+          <a href="#research" class="nav-link" aria-haspopup="true" aria-expanded="false">
+            <span>Research &amp; Publications</span>
+            <svg class="dropdown-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          </a>
+          <div class="dropdown-menu">
+            <div class="dropdown-section-title">Knowledge Repositories</div>
+            <a href="#research" class="dropdown-item">
+              <div class="item-icon-box">📚</div>
+              <div class="item-content">
+                <span class="item-title">Searchable Publication Library</span>
+                <span class="item-desc">Peer-reviewed papers, briefs & surveys</span>
+              </div>
+            </a>
+            <a href="#research" class="dropdown-item" onclick="filterResearchCat('policy-briefs')">
+              <div class="item-icon-box">📄</div>
+              <div class="item-content">
+                <span class="item-title">Downloadable Policy Briefs</span>
+                <span class="item-desc">Actionable insights for decision-makers</span>
+              </div>
+            </a>
+            <a href="#research" class="dropdown-item" onclick="filterResearchCat('technical-reports')">
+              <div class="item-icon-box">📊</div>
+              <div class="item-content">
+                <span class="item-title">Technical Reports & Evaluations</span>
+                <span class="item-desc">Rigorous baseline surveys & reviews</span>
+              </div>
+            </a>
+            <a href="#research" class="dropdown-item" onclick="filterResearchCat('baseline-surveys')">
+              <div class="item-icon-box">🔬</div>
+              <div class="item-content">
+                <span class="item-title">Field Surveys & Datasets</span>
+                <span class="item-desc">Open empirical research instruments</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- 6. Our Impact Dropdown -->
+        <div class="nav-item has-dropdown" data-menu="impact">
+          <a href="#impact" class="nav-link" aria-haspopup="true" aria-expanded="false">
+            <span>Our Impact</span>
+            <svg class="dropdown-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          </a>
+          <div class="dropdown-menu">
+            <div class="dropdown-section-title">Evaluation & Evidence</div>
+            <a href="#impact" class="dropdown-item">
+              <div class="item-icon-box">📈</div>
+              <div class="item-content">
+                <span class="item-title">Verified Impact Statistics</span>
+                <span class="item-desc">Audited figures across regions</span>
+              </div>
+            </a>
+            <a href="#impact" class="dropdown-item">
+              <div class="item-icon-box">🌟</div>
+              <div class="item-content">
+                <span class="item-title">Beneficiary Stories</span>
+                <span class="item-desc">Voices of students, teachers & youth</span>
+              </div>
+            </a>
+            <a href="#impact" class="dropdown-item">
+              <div class="item-icon-box">📑</div>
+              <div class="item-content">
+                <span class="item-title">Annual Impact Reports</span>
+                <span class="item-desc">Accountability & annual reviews</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- 7. Partnerships Dropdown -->
+        <div class="nav-item has-dropdown" data-menu="partnerships">
+          <a href="#partnerships" class="nav-link" aria-haspopup="true" aria-expanded="false">
+            <span>Partnerships</span>
+            <svg class="dropdown-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          </a>
+          <div class="dropdown-menu">
+            <div class="dropdown-section-title">Strategic Alliances</div>
+            <a href="#partnerships" class="dropdown-item">
+              <div class="item-icon-box">🤝</div>
+              <div class="item-content">
+                <span class="item-title">Partner With Us</span>
+                <span class="item-desc">Academic, public & industry models</span>
+              </div>
+            </a>
+            <a href="#partnerships" class="dropdown-item">
+              <div class="item-icon-box">🏛️</div>
+              <div class="item-content">
+                <span class="item-title">Stakeholder Consultations</span>
+                <span class="item-desc">Multi-sectoral advisory roundtables</span>
+              </div>
+            </a>
+            <a href="#partnerships" class="dropdown-item">
+              <div class="item-icon-box">🧭</div>
+              <div class="item-content">
+                <span class="item-title">Partner Directory</span>
+                <span class="item-desc">Our ecosystem of collaborating bodies</span>
+              </div>
+            </a>
+            <a href="#partnerships" class="dropdown-item">
+              <div class="item-icon-box">🔍</div>
+              <div class="item-content">
+                <span class="item-title">Partner Enquiry Tracking</span>
+                <span class="item-desc">Track active proposals & MoA status</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- 8. News & Insights Dropdown -->
+        <div class="nav-item has-dropdown" data-menu="news">
+          <a href="#news" class="nav-link" aria-haspopup="true" aria-expanded="false">
+            <span>News &amp; Insights</span>
+            <svg class="dropdown-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          </a>
+          <div class="dropdown-menu">
+            <div class="dropdown-section-title">Updates &amp; Field Dispatch</div>
+            <a href="#news" class="dropdown-item">
+              <div class="item-icon-box">📰</div>
+              <div class="item-content">
+                <span class="item-title">Institutional Updates</span>
+                <span class="item-desc">Press releases & strategic milestones</span>
+              </div>
+            </a>
+            <a href="#news" class="dropdown-item">
+              <div class="item-icon-box">✍️</div>
+              <div class="item-content">
+                <span class="item-title">Thought Leadership</span>
+                <span class="item-desc">Articles on digital equity & EdTech</span>
+              </div>
+            </a>
+            <a href="#news" class="dropdown-item">
+              <div class="item-icon-box">📸</div>
+              <div class="item-content">
+                <span class="item-title">Media &amp; Gallery</span>
+                <span class="item-desc">Field photography & event highlights</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- 9. Contact Us Dropdown -->
+        <div class="nav-item has-dropdown" data-menu="contact">
+          <a href="#contact" class="nav-link" aria-haspopup="true" aria-expanded="false">
+            <span>Contact Us</span>
+            <svg class="dropdown-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          </a>
+          <div class="dropdown-menu">
+            <div class="dropdown-section-title">Connect &amp; Collaborate</div>
+            <a href="#contact" class="dropdown-item">
+              <div class="item-icon-box">✉️</div>
+              <div class="item-content">
+                <span class="item-title">Contact &amp; Enquiry Form</span>
+                <span class="item-desc">Reach our coordination desk</span>
+              </div>
+            </a>
+            <a href="#contact" class="dropdown-item" onclick="switchContactMode('partnership')">
+              <div class="item-icon-box">💼</div>
+              <div class="item-content">
+                <span class="item-title">Partnership Enquiry Form</span>
+                <span class="item-desc">Submit formal institutional requests</span>
+              </div>
+            </a>
+            <a href="#contact" class="dropdown-item">
+              <div class="item-icon-box">📍</div>
+              <div class="item-content">
+                <span class="item-title">Offices &amp; Hub Locations</span>
+                <span class="item-desc">Regional innovation centers</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+      </nav>
+
+      <!-- Header CTAs & Mobile Toggle -->
+      <div class="header-actions">
+        <a href="#partnerships" class="btn-header-partner">Partner With Us</a>
+        <button class="btn-header-apply open-application-btn" data-programme="General Registration">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg>
+          <span>Apply Now</span>
+        </button>
+        <button id="mobile-toggle-btn" class="mobile-toggle-btn" aria-label="Open Mobile Menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ======================================================================
+       MOBILE ACCORDION DRAWER (Responsive & Expandable)
+       ====================================================================== -->
+  <div class="mobile-nav-backdrop" id="mobile-nav-backdrop">
+    <aside class="mobile-nav-drawer" aria-label="Mobile Navigation Drawer">
+      <div class="mobile-nav-header">
+        <a href="#home" class="brand-logo-wrap" aria-label="SiRI-Hub Home">
+          <img src="assets/images/siri-hub-logo.svg" alt="Sierra Research &amp; Innovation Hub Logo" class="brand-logo-img light-logo" style="height: 42px;">
+          <img src="assets/images/siri-hub-logo-dark.svg" alt="Sierra Research &amp; Innovation Hub Logo" class="brand-logo-img dark-logo" style="height: 42px;">
+        </a>
+        <button id="mobile-close-btn" class="mobile-close-btn" aria-label="Close Mobile Navigation">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+
+      <div class="mobile-nav-list">
+        <!-- 1. Home -->
+        <div class="mobile-nav-accordion-item">
+          <a href="#home" class="mobile-accordion-header mobile-direct-link">Home</a>
+        </div>
+
+        <!-- 2. About Us -->
+        <div class="mobile-nav-accordion-item">
+          <button class="mobile-accordion-header">
+            <span>About Us</span>
+            <svg class="mobile-accordion-caret" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="mobile-accordion-body">
+            <a href="#about" class="mobile-sub-link">Who We Are</a>
+            <a href="#about" class="mobile-sub-link">Our History & Background</a>
+            <a href="#about" class="mobile-sub-link">Vision, Mission & Core Values</a>
+            <a href="#about" class="mobile-sub-link">Our Approach & Theory of Change</a>
+            <a href="#about" class="mobile-sub-link">Organisational Structure</a>
+            <a href="#about" class="mobile-sub-link">Our Team & Departments</a>
+            <a href="#about" class="mobile-sub-link">Institutional Policies & Documents</a>
+          </div>
+        </div>
+
+        <!-- 3. Focus Areas -->
+        <div class="mobile-nav-accordion-item">
+          <button class="mobile-accordion-header">
+            <span>Focus Areas (Big Five Pillars)</span>
+            <svg class="mobile-accordion-caret" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="mobile-accordion-body">
+            <a href="#focus-areas" class="mobile-sub-link">1. Digital Education & Skills</a>
+            <a href="#focus-areas" class="mobile-sub-link">2. ASRHR & Community Wellbeing</a>
+            <a href="#focus-areas" class="mobile-sub-link">3. Applied Research & Policy</a>
+            <a href="#focus-areas" class="mobile-sub-link">4. Youth Tech Clubs & Entrepreneurship</a>
+            <a href="#focus-areas" class="mobile-sub-link">5. Strategic Partnerships & Systems</a>
+          </div>
+        </div>
+
+        <!-- 4. Programmes & Opportunities -->
+        <div class="mobile-nav-accordion-item">
+          <button class="mobile-accordion-header">
+            <span>Programmes &amp; Opportunities</span>
+            <svg class="mobile-accordion-caret" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="mobile-accordion-body">
+            <a href="#project-tech4teachers" class="mobile-sub-link">Tech4Teachers</a>
+            <a href="#project-tech4students" class="mobile-sub-link">Tech4Student &amp; Youth Tech Clubs</a>
+            <a href="#programmes" class="mobile-sub-link">Open Opportunities &amp; Fellowships</a>
+            <a href="#programmes" class="mobile-sub-link">Training &amp; Event Listings</a>
+            <a href="javascript:void(0)" class="mobile-sub-link open-application-btn">Course Registration</a>
+          </div>
+        </div>
+
+        <!-- 5. Research & Publications -->
+        <div class="mobile-nav-accordion-item">
+          <button class="mobile-accordion-header">
+            <span>Research &amp; Publications</span>
+            <svg class="mobile-accordion-caret" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="mobile-accordion-body">
+            <a href="#research" class="mobile-sub-link">Searchable Publication Library</a>
+            <a href="#research" class="mobile-sub-link">Downloadable Policy Briefs</a>
+            <a href="#research" class="mobile-sub-link">Baseline Surveys &amp; Reports</a>
+          </div>
+        </div>
+
+        <!-- 6. Our Impact -->
+        <div class="mobile-nav-accordion-item">
+          <a href="#impact" class="mobile-accordion-header mobile-direct-link">Our Impact</a>
+        </div>
+
+        <!-- 7. Partnerships -->
+        <div class="mobile-nav-accordion-item">
+          <a href="#partnerships" class="mobile-accordion-header mobile-direct-link">Partnerships</a>
+        </div>
+
+        <!-- 8. News & Insights -->
+        <div class="mobile-nav-accordion-item">
+          <a href="#news" class="mobile-accordion-header mobile-direct-link">News &amp; Insights</a>
+        </div>
+
+        <!-- 9. Contact Us -->
+        <div class="mobile-nav-accordion-item">
+          <a href="#contact" class="mobile-accordion-header mobile-direct-link">Contact Us</a>
+        </div>
+      </div>
+
+      <div class="mobile-nav-footer">
+        <button class="btn btn-primary open-application-btn">Apply for Opportunities</button>
+        <button class="btn btn-outline setup-launcher-btn">Launch Readiness Checklist</button>
+      </div>
+    </aside>
+  </div>
+
+  <!-- ======================================================================
+       MAIN CONTENT CONTAINER (SPA VIEWS ROUTER)
+       ====================================================================== -->
+  <main id="main-content">
+
+    <!-- VIEW 1: HOME VIEW -->
+    <div id="view-home" class="page-view active-view">
+      
+      <!-- HERO BANNER SECTION -->
+      <section class="hero-section" aria-label="Welcome to SiRI-Hub">
+        <div class="hero-backdrop-glow"></div>
+        <div class="hero-backdrop-glow-2"></div>
+        
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <div class="hero-slogan-pill">
+              <span class="dot-green"></span>
+              <span>SiRI-Hub &bull; Research. Innovate. Impact.</span>
+            </div>
+
+            <h1 class="hero-title">
+              Empowering Minds, <span class="text-gradient">Innovating Systems</span>, Driving Verified Impact.
+            </h1>
+
+            <p class="hero-desc">
+              SiRI-Hub is an African center of excellence bridging applied scientific research, digital teacher empowerment, grassroots youth technology clubs, and adolescent wellbeing.
+            </p>
+
+            <!-- 4 Primary Calls to Action (Prompt Section 6) -->
+            <div class="hero-cta-group">
+              <a href="#programmes" class="btn btn-primary">
+                <span>Explore Our Programmes</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </a>
+              <a href="#research" class="btn btn-navy">
+                <span>Discover Our Research</span>
+              </a>
+              <a href="#partnerships" class="btn btn-gold">
+                <span>Partner With Us</span>
+              </a>
+              <a href="javascript:void(0)" class="btn btn-outline-white open-application-btn" data-programme="Open Opportunity Track">
+                <span>Apply for Opportunities</span>
+              </a>
+            </div>
+
+            <!-- Hero Quick Stats Strip -->
+            <div class="hero-stats-strip">
+              <div class="hero-stat-item">
+                <span class="stat-num">15,400+</span>
+                <span class="stat-label">Youth &amp; Students Reached</span>
+              </div>
+              <div class="hero-stat-item">
+                <span class="stat-num">1,250+</span>
+                <span class="stat-label">Teachers Certified</span>
+              </div>
+              <div class="hero-stat-item">
+                <span class="stat-num">42+</span>
+                <span class="stat-label">Policy &amp; Research Briefs</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Media Card (Using Bespoke Authentic Generated Photography) -->
+          <div class="hero-media-wrapper">
+            <div class="hero-media-card">
+              <img src="assets/images/hero-banner.jpg" alt="Youth collaborating at SiRI-Hub innovation lab on coding and research analytics" loading="eager">
+              <div class="hero-floating-badge">
+                <div class="badge-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                </div>
+                <div>
+                  <h6>Authentic Field Impact</h6>
+                  <p>Certified participatory programs across schools and community hubs.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- THE BIG FIVE PILLARS (FOCUS AREAS) -->
+      <section class="section section-alt" id="pillars-section" aria-label="The Big Five Pillars">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-badge">Strategic Framework</span>
+            <h2>The Big Five Pillars</h2>
+            <p>
+              SiRI-Hub organizes its multi-sectoral interventions around five interlinked pillars, distinguished by dedicated methodologies and clear outcomes.
+            </p>
+          </div>
+
+          <div class="pillars-grid">
+            <!-- Pillar 1 -->
+            <article class="pillar-card" style="--pillar-color: var(--pillar-1); --pillar-bg-soft: var(--green-50);">
+              <span class="pillar-badge-num">Pillar 01</span>
+              <div class="pillar-icon-wrap">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+              </div>
+              <h3>Digital Education &amp; Skills</h3>
+              <p>Strengthening educators and learners through structured computer literacy, digital pedagogy, open educational resources, and classroom-ready tech tools.</p>
+              <div class="pillar-tags">
+                <span class="pillar-tag">Tech4Teachers</span>
+                <span class="pillar-tag">Curriculum Tech</span>
+                <span class="pillar-tag">Digital Labs</span>
+              </div>
+              <a href="#project-tech4teachers" class="pillar-learn-more">
+                <span>Explore Initiative</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+              </a>
+            </article>
+
+            <!-- Pillar 2 -->
+            <article class="pillar-card" style="--pillar-color: var(--pillar-2); --pillar-bg-soft: #ffe4e6;">
+              <span class="pillar-badge-num">Pillar 02</span>
+              <div class="pillar-icon-wrap">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </div>
+              <h3>ASRHR &amp; Community Wellbeing</h3>
+              <p>Promoting adolescent sexual and reproductive health and rights through dignified, peer-supported education, community outreach, and rights protection.</p>
+              <div class="pillar-tags">
+                <span class="pillar-tag">Adolescent Health</span>
+                <span class="pillar-tag">Community Outreach</span>
+                <span class="pillar-tag">Safeguarding</span>
+              </div>
+              <a href="#project-asrhr" class="pillar-learn-more">
+                <span>Explore Initiative</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+              </a>
+            </article>
+
+            <!-- Pillar 3 -->
+            <article class="pillar-card" style="--pillar-color: var(--pillar-3); --pillar-bg-soft: #e0e7ff;">
+              <span class="pillar-badge-num">Pillar 03</span>
+              <div class="pillar-icon-wrap">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+              </div>
+              <h3>Applied Research &amp; Policy</h3>
+              <p>Conducting rigorous field surveys, data collection, and evaluative research that furnish policymakers and institutions with actionable empirical insights.</p>
+              <div class="pillar-tags">
+                <span class="pillar-tag">Field Surveys</span>
+                <span class="pillar-tag">Policy Briefs</span>
+                <span class="pillar-tag">Evidence Labs</span>
+              </div>
+              <a href="#project-research" class="pillar-learn-more">
+                <span>Explore Initiative</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+              </a>
+            </article>
+
+            <!-- Pillar 4 -->
+            <article class="pillar-card" style="--pillar-color: var(--pillar-4); --pillar-bg-soft: #fef3c7;">
+              <span class="pillar-badge-num">Pillar 04</span>
+              <div class="pillar-icon-wrap">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+              <h3>Youth Tech Clubs &amp; Entrepreneurship</h3>
+              <p>Establishing school-based and community digital clubs where adolescents learn coding, robotics, creative problem-solving, and build digital ventures.</p>
+              <div class="pillar-tags">
+                <span class="pillar-tag">Tech Clubs</span>
+                <span class="pillar-tag">Coding &amp; AI</span>
+                <span class="pillar-tag">Makerspaces</span>
+              </div>
+              <a href="#project-tech4students" class="pillar-learn-more">
+                <span>Explore Initiative</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+              </a>
+            </article>
+
+            <!-- Pillar 5 -->
+            <article class="pillar-card" style="--pillar-color: var(--pillar-5); --pillar-bg-soft: #e0f2fe;">
+              <span class="pillar-badge-num">Pillar 05</span>
+              <div class="pillar-icon-wrap">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <h3>Strategic Partnerships &amp; Systems</h3>
+              <p>Forging high-level synergies with educational ministries, international development agencies, university faculties, and tech industry partners.</p>
+              <div class="pillar-tags">
+                <span class="pillar-tag">Ministries</span>
+                <span class="pillar-tag">Academic Alliances</span>
+                <span class="pillar-tag">Scaling</span>
+              </div>
+              <a href="#partnerships" class="pillar-learn-more">
+                <span>Explore Initiative</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOUR KEY PROJECTS SECTION (With Authentic Bespoke Imagery) -->
+      <section class="section" id="key-projects-section" aria-label="Four Key Projects">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-badge">Flagship Deployments</span>
+            <h2>Four Key Project Pages</h2>
+            <p>
+              In-depth operational programs advancing teacher digital capacity, student innovation clubs, community adolescent health, and collaborative research.
+            </p>
+          </div>
+
+          <div class="projects-grid">
+            
+            <!-- Project 1: Tech4Teachers -->
+            <article class="project-card" id="project-tech4teachers">
+              <div class="project-image-box">
+                <img src="assets/images/tech4teachers.jpg" alt="Teachers engaged in computer training and digital lesson planning workshop" loading="lazy">
+                <span class="project-tag-pill">Pillar 01 &bull; Digital Education</span>
+              </div>
+              <div class="project-body">
+                <h3>Tech4Teachers</h3>
+                <p>
+                  Equipping primary and secondary educators with practical digital teaching competencies, offline digital repository usage, and multimedia pedagogical methodologies.
+                </p>
+                <div class="project-metrics-row">
+                  <div class="project-metric-item">
+                    <span class="project-metric-val">1,250+</span>
+                    <span class="project-metric-label">Teachers Trained</span>
+                  </div>
+                  <div class="project-metric-item">
+                    <span class="project-metric-val">140+</span>
+                    <span class="project-metric-label">Partner Schools</span>
+                  </div>
+                  <div class="project-metric-item">
+                    <span class="project-metric-val">92%</span>
+                    <span class="project-metric-label">Adoption Rate</span>
+                  </div>
+                </div>
+                <div class="project-actions">
+                  <a href="#programmes" class="btn btn-outline btn-sm">View Curriculum</a>
+                  <button class="btn btn-primary btn-sm open-application-btn" data-programme="Tech4Teachers Cohort 4">Apply as Educator</button>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 2: Tech4Student & Youth Digital Tech Clubs -->
+            <article class="project-card" id="project-tech4students">
+              <div class="project-image-box">
+                <img src="assets/images/tech4students.jpg" alt="Secondary school students collaborating on coding, laptops and robotics in a tech club" loading="lazy">
+                <span class="project-tag-pill">Pillar 04 &bull; Youth Tech Clubs</span>
+              </div>
+              <div class="project-body">
+                <h3>Tech4Student &amp; Youth Digital Tech Clubs</h3>
+                <p>
+                  Immersive hands-on technology clubs empowering girls and boys with coding in Python, web development, robotics prototyping, and design thinking.
+                </p>
+                <div class="project-metrics-row">
+                  <div class="project-metric-item">
+                    <span class="project-metric-val">8,900+</span>
+                    <span class="project-metric-label">Active Club Members</span>
+                  </div>
+                  <div class="project-metric-item">
+                    <span class="project-metric-val">68</span>
+                    <span class="project-metric-label">School Tech Hubs</span>
+                  </div>
+                  <div class="project-metric-item">
+                    <span class="project-metric-val">52%</span>
+                    <span class="project-metric-label">Female Participation</span>
+                  </div>
+                </div>
+                <div class="project-actions">
+                  <a href="#programmes" class="btn btn-outline btn-sm">Explore Club Modules</a>
+                  <button class="btn btn-primary btn-sm open-application-btn" data-programme="Youth Tech Club Mentor">Join as Mentor</button>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 3: ASRHR & Community Development -->
+            <article class="project-card" id="project-asrhr">
+              <div class="project-image-box">
+                <img src="assets/images/asrhr-community.jpg" alt="Youth peer educators conducting community engagement on adolescent health and wellbeing" loading="lazy">
+                <span class="project-tag-pill">Pillar 02 &bull; Health &amp; Wellbeing</span>
+              </div>
+              <div class="project-body">
+                <h3>ASRHR &amp; Community Development</h3>
+                <p>
+                  Culturally responsive, consented adolescent reproductive health outreach, peer mentorship circles, mental wellbeing forums, and community caregiver engagement.
+                </p>
+                <div class="project-metrics-row">
+                  <div class="project-metric-item">
+                    <span class="project-metric-val">6,500+</span>
+                    <span class="project-metric-label">Youth Reached</span>
+                  </div>
+                  <div class="project-metric-item">
+                    <span class="project-metric-val">32</span>
+                    <span class="project-metric-label">Community Dialogues</span>
+                  </div>
+                  <div class="project-metric-item">
+                    <span class="project-metric-val">100%</span>
+                    <span class="project-metric-label">Ethical Safeguarding</span>
+                  </div>
+                </div>
+                <div class="project-actions">
+                  <a href="#about" class="btn btn-outline btn-sm">Safeguarding Standards</a>
+                  <a href="#contact" class="btn btn-primary btn-sm">Support Outreach</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 4: Research, Impact & Partnerships -->
+            <article class="project-card" id="project-research">
+              <div class="project-image-box">
+                <img src="assets/images/research-summit.jpg" alt="Policy makers and researchers at executive roundtable discussing research evidence" loading="lazy">
+                <span class="project-tag-pill">Pillars 03 &amp; 05 &bull; Evidence &amp; Policy</span>
+              </div>
+              <div class="project-body">
+                <h3>Research, Impact &amp; Partnerships</h3>
+                <p>
+                  High-level roundtables, empirical surveys, policy synthesis, and strategic co-creation with government ministries and international donor foundations.
+                </p>
+                <div class="project-metrics-row">
+                  <div class="project-metric-item">
+                    <span class="project-metric-val">42+</span>
+                    <span class="project-metric-label">Publications</span>
+                  </div>
+                  <div class="project-metric-item">
+                    <span class="project-metric-val">24</span>
+                    <span class="project-metric-label">MoA Partners</span>
+                  </div>
+                  <div class="project-metric-item">
+                    <span class="project-metric-val">5</span>
+                    <span class="project-metric-label">National Policy Inputs</span>
+                  </div>
+                </div>
+                <div class="project-actions">
+                  <a href="#research" class="btn btn-outline btn-sm">Browse Publications</a>
+                  <a href="#partnerships" class="btn btn-primary btn-sm">Partner Consultation</a>
+                </div>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- VERIFIED IMPACT METRICS COUNTER STRIP -->
+      <section class="impact-counter-section" id="impact-counter-strip" aria-label="Verified Impact Statistics">
+        <div class="container">
+          <div class="section-header" style="margin-bottom: 2.5rem;">
+            <span class="section-badge" style="background: rgba(255,255,255,0.1); color: var(--gold-400); border-color: rgba(245,158,11,0.3);">
+              Audited Evidence
+            </span>
+            <h2 style="color: #ffffff;">Verified Impact Figures</h2>
+            <p style="color: #cbd5e1;">All indicators are verified through rigorous monitoring and evaluation frameworks before publication.</p>
+          </div>
+
+          <div class="impact-counter-grid">
+            <div class="impact-counter-card">
+              <div class="counter-icon">👥</div>
+              <div class="counter-number">
+                <span class="counter-val" data-target="15400">0</span><span class="counter-suffix">+</span>
+              </div>
+              <div class="counter-label">Youth &amp; Students Directly Reached</div>
+            </div>
+
+            <div class="impact-counter-card">
+              <div class="counter-icon">🎓</div>
+              <div class="counter-number">
+                <span class="counter-val" data-target="1250">0</span><span class="counter-suffix">+</span>
+              </div>
+              <div class="counter-label">Educators &amp; Teachers Trained</div>
+            </div>
+
+            <div class="impact-counter-card">
+              <div class="counter-icon">📑</div>
+              <div class="counter-number">
+                <span class="counter-val" data-target="42">0</span><span class="counter-suffix">+</span>
+              </div>
+              <div class="counter-label">Peer-Reviewed Papers &amp; Briefs</div>
+            </div>
+
+            <div class="impact-counter-card">
+              <div class="counter-icon">🏛️</div>
+              <div class="counter-number">
+                <span class="counter-val" data-target="68">0</span><span class="counter-suffix">+</span>
+              </div>
+              <div class="counter-label">Grassroots Tech Hubs Established</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FEATURED NEWS & LATEST UPDATES (PHASE 1) -->
+      <section class="section section-alt" aria-label="Latest News & Insights">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-badge">News &amp; Insights</span>
+            <h2>Latest Institutional Updates</h2>
+            <p>Field dispatches, research announcements, and open fellowship calls from across our network.</p>
+          </div>
+
+          <div class="news-grid">
+            <!-- News 1 -->
+            <article class="news-card">
+              <div class="news-thumb-box">
+                <img src="assets/images/tech4teachers.jpg" alt="Teachers completing digital literacy training" loading="lazy">
+              </div>
+              <div class="news-content">
+                <div class="news-meta">
+                  <span class="news-tag">Training Cohort</span>
+                  <span>October 2026</span>
+                </div>
+                <h3>Tech4Teachers Expands Digital Lab Rollout to 40 New Rural Secondary Schools</h3>
+                <p>Equipping educators with solar-powered offline servers and localized STEM curriculum guides.</p>
+                <a href="#news" class="pillar-learn-more" style="color: var(--green-600);">Read Article →</a>
+              </div>
+            </article>
+
+            <!-- News 2 -->
+            <article class="news-card">
+              <div class="news-thumb-box">
+                <img src="assets/images/research-summit.jpg" alt="Roundtable discussion on evidence-based policy" loading="lazy">
+              </div>
+              <div class="news-content">
+                <div class="news-meta">
+                  <span class="news-tag">Research Release</span>
+                  <span>September 2026</span>
+                </div>
+                <h3>Policy Brief #14 Released: Strengthening Adolescent Health in Tech Ecosystems</h3>
+                <p>Synthesizing survey data from 3,500 adolescents on digital access and reproductive rights education.</p>
+                <a href="#research" class="pillar-learn-more" style="color: var(--green-600);">View Brief →</a>
+              </div>
+            </article>
+
+            <!-- News 3 -->
+            <article class="news-card">
+              <div class="news-thumb-box">
+                <img src="assets/images/tech4students.jpg" alt="Youth tech club participants displaying robotics projects" loading="lazy">
+              </div>
+              <div class="news-content">
+                <div class="news-meta">
+                  <span class="news-tag">Youth Innovation</span>
+                  <span>August 2026</span>
+                </div>
+                <h3>Youth Digital Tech Clubs Annual Hackathon Highlights Community Solutions</h3>
+                <p>Adolescent teams develop solar monitoring devices and peer health mobile applications.</p>
+                <a href="#news" class="pillar-learn-more" style="color: var(--green-600);">See Highlights →</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CALL TO COLLABORATION BANNER -->
+      <section class="section section-dark" style="text-align: center;">
+        <div class="container" style="max-width: 800px;">
+          <h2 style="font-size: 2.3rem; margin-bottom: 1rem;">Ready to Partner with SiRI-Hub?</h2>
+          <p style="font-size: 1.1rem; margin-bottom: 2rem;">
+            Whether you represent a government ministry, academic institution, philanthropic donor, or community organisation, join us in building sustainable research and digital empowerment.
+          </p>
+          <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+            <a href="#contact" class="btn btn-primary" onclick="switchContactMode('partnership')">Submit Partnership Enquiry</a>
+            <a href="#programmes" class="btn btn-outline-white">Explore Current Openings</a>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- VIEW 2: ABOUT US VIEW (All Subsections as Specified in Navigation) -->
+    <div id="view-about" class="page-view" style="display: none;">
+      <section class="section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-badge">Institutional Profile</span>
+            <h2>About SiRI-Hub</h2>
+            <p>Pioneering evidence-based digital skills, adolescent wellbeing, and systemic innovation across Africa.</p>
+          </div>
+
+          <!-- About Navigation Tabs -->
+          <div class="about-tabs-nav" role="tablist">
+            <button class="about-tab-btn active" data-tab="tab-who-we-are" role="tab">Who We Are</button>
+            <button class="about-tab-btn" data-tab="tab-history" role="tab">Our History &amp; Background</button>
+            <button class="about-tab-btn" data-tab="tab-vision-mission" role="tab">Vision, Mission &amp; Values</button>
+            <button class="about-tab-btn" data-tab="tab-theory-of-change" role="tab">Approach &amp; Theory of Change</button>
+            <button class="about-tab-btn" data-tab="tab-structure" role="tab">Organisational Structure</button>
+            <button class="about-tab-btn" data-tab="tab-team" role="tab">Our Team &amp; Departments</button>
+            <button class="about-tab-btn" data-tab="tab-policies" role="tab">Institutional Policies &amp; Documents</button>
+          </div>
+
+          <!-- Tab 1: Who We Are -->
+          <div class="about-tab-pane active" id="tab-who-we-are" role="tabpanel">
+            <div style="display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 2.5rem; align-items: center;">
+              <div>
+                <h3 style="margin-bottom: 1rem;">A Pan-African Catalyst for Research &amp; Digital Innovation</h3>
+                <p style="margin-bottom: 1rem;">
+                  <strong>SiRI-Hub (Sustainable Innovation &amp; Research Initiative Hub)</strong> is an independent, non-profit center of excellence dedicated to translating rigorous empirical research into high-impact digital education, youth empowerment, and public health interventions.
+                </p>
+                <p style="margin-bottom: 1rem;">
+                  Our cross-disciplinary teams work at the intersection of pedagogy, technology, public health, and social policy to design evidence-based solutions that are community-owned and sustainable.
+                </p>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1.5rem;">
+                  <div style="background: var(--bg-secondary); padding: 1.25rem; border-radius: var(--radius-md); border-left: 4px solid var(--green-600);">
+                    <h5 style="color: var(--navy-800); margin-bottom: 0.25rem;">Evidence First</h5>
+                    <p style="font-size: 0.84rem;">Every initiative stems from baseline data and field research.</p>
+                  </div>
+                  <div style="background: var(--bg-secondary); padding: 1.25rem; border-radius: var(--radius-md); border-left: 4px solid var(--gold-500);">
+                    <h5 style="color: var(--navy-800); margin-bottom: 0.25rem;">Community Driven</h5>
+                    <p style="font-size: 0.84rem;">Co-created with teachers, youth leaders, and caregivers.</p>
+                  </div>
+                </div>
+              </div>
+              <div style="border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-lg);">
+                <img src="assets/images/hero-banner.jpg" alt="SiRI-Hub research members collaborating">
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab 2: History and Background -->
+          <div class="about-tab-pane" id="tab-history" role="tabpanel">
+            <div style="max-width: 860px; margin: 0 auto;">
+              <h3 style="margin-bottom: 1rem;">Our History &amp; Background</h3>
+              <p style="margin-bottom: 1.5rem;">
+                SiRI-Hub emerged from an urgent recognition among researchers, educational technologists, and community advocates that digital transformation in sub-Saharan Africa often lacked localized evidence and pedagogical support for front-line educators.
+              </p>
+              
+              <div style="position: relative; padding-left: 2rem; border-left: 3px solid var(--green-500); display: flex; flex-direction: column; gap: 2rem;">
+                <div>
+                  <span style="font-weight: 800; color: var(--green-600);">2021 — Genesis &amp; Baseline Surveys</span>
+                  <h4 style="margin: 0.25rem 0;">Field Diagnostics on Digital Skills Deficits</h4>
+                  <p style="font-size: 0.9rem;">Initial assessment of 85 schools across peri-urban districts identified that hardware distribution failed without comprehensive educator training.</p>
+                </div>
+                <div>
+                  <span style="font-weight: 800; color: var(--gold-600);">2023 — Launch of Tech4Teachers &amp; Tech Clubs</span>
+                  <h4 style="margin: 0.25rem 0;">From Theory to Field Implementation</h4>
+                  <p style="font-size: 0.9rem;">Deployment of the first 25 school-based Digital Tech Clubs and accredited teacher development modules.</p>
+                </div>
+                <div>
+                  <span style="font-weight: 800; color: var(--pillar-3);">2025/2026 — Institutional Scaling</span>
+                  <h4 style="margin: 0.25rem 0;">The Big Five Pillars &amp; Regional Secretariat</h4>
+                  <p style="font-size: 0.9rem;">Consolidation into SiRI-Hub with institutional governance, formal ministry advisory roles, and multi-country research partnerships.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab 3: Vision, Mission & Core Values -->
+          <div class="about-tab-pane" id="tab-vision-mission" role="tabpanel">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-bottom: 2.5rem;">
+              <div style="background: var(--bg-secondary); padding: 2rem; border-radius: var(--radius-md); border-top: 5px solid var(--navy-800);">
+                <div style="font-size: 2rem; margin-bottom: 0.5rem;">🔭</div>
+                <h3 style="margin-bottom: 0.75rem;">Our Vision</h3>
+                <p>
+                  A digitally inclusive, evidence-powered Africa where every young person and educator has the competencies, health, and agency to drive sustainable transformation.
+                </p>
+              </div>
+
+              <div style="background: var(--bg-secondary); padding: 2rem; border-radius: var(--radius-md); border-top: 5px solid var(--green-600);">
+                <div style="font-size: 2rem; margin-bottom: 0.5rem;">🚀</div>
+                <h3 style="margin-bottom: 0.75rem;">Our Mission</h3>
+                <p>
+                  To accelerate social and educational equity through world-class applied research, teacher tech enablement, youth coding hubs, and adolescent health advocacy.
+                </p>
+              </div>
+            </div>
+
+            <h4 style="margin-bottom: 1rem; text-align: center;">Our Core Values</h4>
+            <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem;">
+              <div style="text-align: center; padding: 1.25rem; background: var(--bg-primary); border: 1px solid var(--border-light); border-radius: var(--radius-md);">
+                <div style="font-weight: 800; color: var(--green-600); margin-bottom: 0.25rem;">Integrity</div>
+                <p style="font-size: 0.82rem;">Uncompromising commitment to scientific rigor and ethical honesty.</p>
+              </div>
+              <div style="text-align: center; padding: 1.25rem; background: var(--bg-primary); border: 1px solid var(--border-light); border-radius: var(--radius-md);">
+                <div style="font-weight: 800; color: var(--navy-800); margin-bottom: 0.25rem;">Innovation</div>
+                <p style="font-size: 0.82rem;">Creative, human-centered approaches tailored to local contexts.</p>
+              </div>
+              <div style="text-align: center; padding: 1.25rem; background: var(--bg-primary); border: 1px solid var(--border-light); border-radius: var(--radius-md);">
+                <div style="font-weight: 800; color: var(--pillar-2); margin-bottom: 0.25rem;">Inclusivity</div>
+                <p style="font-size: 0.82rem;">Gender parity, youth voice, and reaching underserved communities.</p>
+              </div>
+              <div style="text-align: center; padding: 1.25rem; background: var(--bg-primary); border: 1px solid var(--border-light); border-radius: var(--radius-md);">
+                <div style="font-weight: 800; color: var(--gold-600); margin-bottom: 0.25rem;">Verified Impact</div>
+                <p style="font-size: 0.82rem;">Measurable, transparent outcomes documented through open evidence.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab 4: Approach & Theory of Change -->
+          <div class="about-tab-pane" id="tab-theory-of-change" role="tabpanel">
+            <h3 style="text-align: center; margin-bottom: 0.5rem;">Our Approach &amp; Theory of Change (ToC)</h3>
+            <p style="text-align: center; max-width: 700px; margin: 0 auto 2.5rem;">
+              How SiRI-Hub transforms empirical research and community co-creation into systemic educational and social impact.
+            </p>
+
+            <div class="toc-pipeline">
+              <div class="toc-step-card">
+                <span class="toc-step-badge">Phase 01 &bull; Diagnostics</span>
+                <h4>Empirical Research &amp; Needs Assessment</h4>
+                <p>Rigorous field surveys, institutional readiness audits, and adolescent health baseline inquiries.</p>
+              </div>
+
+              <div class="toc-step-card">
+                <span class="toc-step-badge">Phase 02 &bull; Co-Creation</span>
+                <h4>Intervention Design &amp; Digital Tooling</h4>
+                <p>Curriculum development for Tech4Teachers, peer-learning toolkits, and open-source lab architectures.</p>
+              </div>
+
+              <div class="toc-step-card">
+                <span class="toc-step-badge">Phase 03 &bull; Deployment</span>
+                <h4>Community &amp; Hub Implementation</h4>
+                <p>Direct classroom training, youth digital tech clubs, and peer ASRHR dialog circles in hubs.</p>
+              </div>
+
+              <div class="toc-step-card">
+                <span class="toc-step-badge">Phase 04 &bull; Scaling</span>
+                <h4>Policy Advocacy &amp; Institutional Integration</h4>
+                <p>Submitting policy briefs to education ministries and multilateral agencies to mainstream verified solutions.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab 5: Organisational Structure -->
+          <div class="about-tab-pane" id="tab-structure" role="tabpanel">
+            <h3 style="margin-bottom: 1rem;">Organisational Structure &amp; Governance</h3>
+            <p style="margin-bottom: 2rem;">
+              SiRI-Hub operates with a clear governance framework ensuring independent academic oversight, strategic leadership, and rapid field agility.
+            </p>
+
+            <div style="background: var(--bg-secondary); padding: 2rem; border-radius: var(--radius-lg); border: 1px solid var(--border-light);">
+              <div style="text-align: center; margin-bottom: 2rem;">
+                <div style="display: inline-block; background: var(--navy-900); color: #ffffff; padding: 0.75rem 2rem; border-radius: var(--radius-md); font-weight: 800;">
+                  Board of Trustees &amp; Strategic Advisory Council
+                </div>
+              </div>
+
+              <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; text-align: center;">
+                <div style="background: var(--bg-primary); padding: 1.25rem; border-radius: var(--radius-md); border-top: 3px solid var(--green-600);">
+                  <div style="font-weight: 700; color: var(--navy-800);">Directorate of Applied Research</div>
+                  <p style="font-size: 0.8rem; margin-top: 0.25rem;">Field Surveys, Data Analytics, Policy Briefs &amp; Publications</p>
+                </div>
+
+                <div style="background: var(--bg-primary); padding: 1.25rem; border-radius: var(--radius-md); border-top: 3px solid var(--gold-500);">
+                  <div style="font-weight: 700; color: var(--navy-800);">Directorate of Tech &amp; Youth Programs</div>
+                  <p style="font-size: 0.8rem; margin-top: 0.25rem;">Tech4Teachers, Digital Tech Clubs &amp; Robotics Labs</p>
+                </div>
+
+                <div style="background: var(--bg-primary); padding: 1.25rem; border-radius: var(--radius-md); border-top: 3px solid var(--pillar-2);">
+                  <div style="font-weight: 700; color: var(--navy-800);">Directorate of Community &amp; Health</div>
+                  <p style="font-size: 0.8rem; margin-top: 0.25rem;">ASRHR Initiatives, Safeguarding, Partnerships &amp; Operations</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab 6: Team & Departments -->
+          <div class="about-tab-pane" id="tab-team" role="tabpanel">
+            <h3 style="text-align: center; margin-bottom: 2rem;">Our Leadership &amp; Research Faculty</h3>
+            <div class="team-grid">
+              <div class="team-card">
+                <div class="team-avatar">OA</div>
+                <h4>Dr. O. Adebayo</h4>
+                <div class="team-role">Executive Director &amp; Research Chair</div>
+                <p style="font-size: 0.82rem;">18+ years leading public education research and policy roundtables in West and East Africa.</p>
+              </div>
+
+              <div class="team-card">
+                <div class="team-avatar" style="background: linear-gradient(135deg, var(--green-600), var(--gold-500));">NM</div>
+                <h4>Dr. N. Mwangi</h4>
+                <div class="team-role">Director of Digital Pedagogies (EdTech)</div>
+                <p style="font-size: 0.82rem;">Pioneered blended teacher training frameworks and offline STEM toolkits for 140+ schools.</p>
+              </div>
+
+              <div class="team-card">
+                <div class="team-avatar" style="background: linear-gradient(135deg, var(--pillar-2), var(--navy-800));">FK</div>
+                <h4>Fatoumata K.</h4>
+                <div class="team-role">Head of ASRHR &amp; Youth Wellbeing</div>
+                <p style="font-size: 0.82rem;">Specialist in adolescent sexual rights, participatory field methods, and youth safeguarding.</p>
+              </div>
+
+              <div class="team-card">
+                <div class="team-avatar" style="background: linear-gradient(135deg, var(--pillar-5), var(--green-600));">KM</div>
+                <h4>K. Mensah</h4>
+                <div class="team-role">Youth Innovation &amp; Tech Clubs Lead</div>
+                <p style="font-size: 0.82rem;">Curriculum designer for hardware robotics, open coding bootcamps, and maker spaces.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab 7: Institutional Policies & Documents -->
+          <div class="about-tab-pane" id="tab-policies" role="tabpanel">
+            <h3 style="margin-bottom: 1rem;">Institutional Policies &amp; Governance Documents</h3>
+            <p style="margin-bottom: 2rem;">
+              SiRI-Hub adheres to the highest standards of child safeguarding, research ethics, and data protection. Authorised documents are available for download.
+            </p>
+
+            <div style="display: flex; flex-direction: column; gap: 1rem;">
+              <div class="pub-card">
+                <div class="pub-doc-icon">🛡️</div>
+                <div class="pub-info">
+                  <h4 style="font-size: 1.05rem; margin-bottom: 0.25rem;">SiRI-Hub Child Safeguarding &amp; Vulnerable Persons Policy (2026 Revision)</h4>
+                  <p style="font-size: 0.85rem;">Mandatory guidelines and zero-tolerance protocols for all staff, researchers, and volunteers working with youth.</p>
+                </div>
+                <button class="btn btn-outline btn-sm download-pub-btn" data-id="POL-SAFEGUARD">Download PDF (420 KB)</button>
+              </div>
+
+              <div class="pub-card">
+                <div class="pub-doc-icon">⚖️</div>
+                <div class="pub-info">
+                  <h4 style="font-size: 1.05rem; margin-bottom: 0.25rem;">Research Ethics &amp; Human Subjects Protection Protocol</h4>
+                  <p style="font-size: 0.85rem;">Institutional Review Board (IRB) compliance, informed consent procedures, and ethical publication charters.</p>
+                </div>
+                <button class="btn btn-outline btn-sm download-pub-btn" data-id="POL-ETHICS">Download PDF (380 KB)</button>
+              </div>
+
+              <div class="pub-card">
+                <div class="pub-doc-icon">🔒</div>
+                <div class="pub-info">
+                  <h4 style="font-size: 1.05rem; margin-bottom: 0.25rem;">Data Protection, Privacy &amp; GDPR/African Union Compliance Charter</h4>
+                  <p style="font-size: 0.85rem;">Data encryption standards, participant anonymisation, and sovereign survey data stewardship.</p>
+                </div>
+                <button class="btn btn-outline btn-sm download-pub-btn" data-id="POL-DATA">Download PDF (510 KB)</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </div>
+
+    <!-- VIEW 3: FOCUS AREAS (THE BIG FIVE PILLARS) -->
+    <div id="view-focus-areas" class="page-view" style="display: none;">
+      <section class="section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-badge">Strategic Portfolios</span>
+            <h2>The Big Five Pillars</h2>
+            <p>A comprehensive overview of SiRI-Hub's five programmatic pillars, targets, and systemic interventions.</p>
+          </div>
+
+          <div style="display: flex; flex-direction: column; gap: 3rem;">
+            <!-- Pillar 1 Deep Dive -->
+            <div style="background: var(--bg-primary); border: 1.5px solid var(--border-light); border-radius: var(--radius-lg); padding: 2.5rem; border-left: 8px solid var(--pillar-1);">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
+                <span style="font-size: 0.85rem; font-weight: 800; color: var(--pillar-1); text-transform: uppercase;">Pillar 01</span>
+                <span class="pub-type-badge" style="background: var(--green-50); color: var(--green-600);">Flagship Deployment: Tech4Teachers</span>
+              </div>
+              <h3 style="font-size: 1.8rem; margin-bottom: 1rem;">Digital Education &amp; Skills</h3>
+              <p style="margin-bottom: 1.5rem; font-size: 1.02rem;">
+                We equip classroom teachers and school leaders with practical digital teaching competencies, pedagogical integration strategies, and offline open-source educational repositories that function reliably regardless of internet constraints.
+              </p>
+              <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; background: var(--bg-secondary); padding: 1.5rem; border-radius: var(--radius-md);">
+                <div>
+                  <h5 style="color: var(--navy-800); margin-bottom: 0.25rem;">Curriculum Integration</h5>
+                  <p style="font-size: 0.84rem;">Transforming STEM lesson plans into interactive digital modules.</p>
+                </div>
+                <div>
+                  <h5 style="color: var(--navy-800); margin-bottom: 0.25rem;">Offline Capability</h5>
+                  <p style="font-size: 0.84rem;">Locally hosted content repositories eliminating connectivity barriers.</p>
+                </div>
+                <div>
+                  <h5 style="color: var(--navy-800); margin-bottom: 0.25rem;">Educator Certification</h5>
+                  <p style="font-size: 0.84rem;">Formal continuing professional development credits for educators.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pillar 2 Deep Dive -->
+            <div style="background: var(--bg-primary); border: 1.5px solid var(--border-light); border-radius: var(--radius-lg); padding: 2.5rem; border-left: 8px solid var(--pillar-2);">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
+                <span style="font-size: 0.85rem; font-weight: 800; color: var(--pillar-2); text-transform: uppercase;">Pillar 02</span>
+                <span class="pub-type-badge" style="background: #ffe4e6; color: var(--pillar-2);">Community Care &amp; Health Rights</span>
+              </div>
+              <h3 style="font-size: 1.8rem; margin-bottom: 1rem;">Adolescent Sexual &amp; Reproductive Health and Rights (ASRHR)</h3>
+              <p style="margin-bottom: 1.5rem; font-size: 1.02rem;">
+                Providing age-appropriate, stigma-free sexual and reproductive health information, peer counselling, mental wellbeing support, and community advocacy that ensures youth make informed choices.
+              </p>
+              <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; background: var(--bg-secondary); padding: 1.5rem; border-radius: var(--radius-md);">
+                <div>
+                  <h5 style="color: var(--navy-800); margin-bottom: 0.25rem;">Peer Educator Networks</h5>
+                  <p style="font-size: 0.84rem;">Trained adolescent champions leading youth-led health dialogues.</p>
+                </div>
+                <div>
+                  <h5 style="color: var(--navy-800); margin-bottom: 0.25rem;">Community Caregiver Roundtables</h5>
+                  <p style="font-size: 0.84rem;">Engaging parents, elders, and leaders to foster supportive environments.</p>
+                </div>
+                <div>
+                  <h5 style="color: var(--navy-800); margin-bottom: 0.25rem;">Safe Referral Systems</h5>
+                  <p style="font-size: 0.84rem;">Direct pathways to youth-friendly clinical services and psychosocial care.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pillar 3 Deep Dive -->
+            <div style="background: var(--bg-primary); border: 1.5px solid var(--border-light); border-radius: var(--radius-lg); padding: 2.5rem; border-left: 8px solid var(--pillar-3);">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
+                <span style="font-size: 0.85rem; font-weight: 800; color: var(--pillar-3); text-transform: uppercase;">Pillar 03</span>
+                <span class="pub-type-badge" style="background: #e0e7ff; color: var(--pillar-3);">Scientific Rigor &amp; Insights</span>
+              </div>
+              <h3 style="font-size: 1.8rem; margin-bottom: 1rem;">Applied Research, Surveys &amp; Policy Innovations</h3>
+              <p style="margin-bottom: 1.5rem; font-size: 1.02rem;">
+                Publishing actionable research, longitudinal impact surveys, and technical evaluations that inform national curriculum boards, development partners, and community programs.
+              </p>
+              <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; background: var(--bg-secondary); padding: 1.5rem; border-radius: var(--radius-md);">
+                <div>
+                  <h5 style="color: var(--navy-800); margin-bottom: 0.25rem;">Longitudinal Surveys</h5>
+                  <p style="font-size: 0.84rem;">Tracking learner performance and digital literacy trajectories over 3+ years.</p>
+                </div>
+                <div>
+                  <h5 style="color: var(--navy-800); margin-bottom: 0.25rem;">Policy Synthesis</h5>
+                  <p style="font-size: 0.84rem;">Translating academic findings into concise briefs for ministries.</p>
+                </div>
+                <div>
+                  <h5 style="color: var(--navy-800); margin-bottom: 0.25rem;">Open Data Access</h5>
+                  <p style="font-size: 0.84rem;">Curated anonymised datasets available for academic research fellows.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pillar 4 Deep Dive -->
+            <div style="background: var(--bg-primary); border: 1.5px solid var(--border-light); border-radius: var(--radius-lg); padding: 2.5rem; border-left: 8px solid var(--pillar-4);">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
+                <span style="font-size: 0.85rem; font-weight: 800; color: var(--pillar-4); text-transform: uppercase;">Pillar 04</span>
+                <span class="pub-type-badge" style="background: #fef3c7; color: var(--gold-600);">Youth Digital Tech Clubs</span>
+              </div>
+              <h3 style="font-size: 1.8rem; margin-bottom: 1rem;">Youth Empowerment, Coding &amp; Entrepreneurship</h3>
+              <p style="margin-bottom: 1.5rem; font-size: 1.02rem;">
+                Establishing extracurricular technology hubs where adolescents build software solutions, work with robotics sensors, and learn how to solve real community challenges.
+              </p>
+              <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; background: var(--bg-secondary); padding: 1.5rem; border-radius: var(--radius-md);">
+                <div>
+                  <h5 style="color: var(--navy-800); margin-bottom: 0.25rem;">Makerspace Labs</h5>
+                  <p style="font-size: 0.84rem;">Physical labs outfitted with microcontrollers and development laptops.</p>
+                </div>
+                <div>
+                  <h5 style="color: var(--navy-800); margin-bottom: 0.25rem;">Gender-Inclusive Coding</h5>
+                  <p style="font-size: 0.84rem;">Targeted recruitment achieving over 50% participation among girls.</p>
+                </div>
+                <div>
+                  <h5 style="color: var(--navy-800); margin-bottom: 0.25rem;">Community Hackathons</h5>
+                  <p style="font-size: 0.84rem;">Annual competitions producing functional student-led community innovations.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pillar 5 Deep Dive -->
+            <div style="background: var(--bg-primary); border: 1.5px solid var(--border-light); border-radius: var(--radius-lg); padding: 2.5rem; border-left: 8px solid var(--pillar-5);">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
+                <span style="font-size: 0.85rem; font-weight: 800; color: var(--pillar-5); text-transform: uppercase;">Pillar 05</span>
+                <span class="pub-type-badge" style="background: #e0f2fe; color: var(--pillar-5);">Ecosystem Sustainability</span>
+              </div>
+              <h3 style="font-size: 1.8rem; margin-bottom: 1rem;">Strategic Partnerships &amp; Institutional Systems</h3>
+              <p style="margin-bottom: 1.5rem; font-size: 1.02rem;">
+                Structuring formal co-operation with education ministries, international funders, research universities, and private sector tech leaders to sustain long-term systemic impact.
+              </p>
+              <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; background: var(--bg-secondary); padding: 1.5rem; border-radius: var(--radius-md);">
+                <div>
+                  <h5 style="color: var(--navy-800); margin-bottom: 0.25rem;">Ministry Frameworks</h5>
+                  <p style="font-size: 0.84rem;">MoUs facilitating public school integration and curriculum alignment.</p>
+                </div>
+                <div>
+                  <h5 style="color: var(--navy-800); margin-bottom: 0.25rem;">Donor Transparency</h5>
+                  <p style="font-size: 0.84rem;">Audited governance, real-time M&amp;E dashboards, and impact tracking.</p>
+                </div>
+                <div>
+                  <h5 style="color: var(--navy-800); margin-bottom: 0.25rem;">Global Academic Ties</h5>
+                  <p style="font-size: 0.84rem;">Joint research papers and fellowship exchanges with world-class faculties.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- VIEW 4: PROGRAMMES & OPPORTUNITIES -->
+    <div id="view-programmes" class="page-view" style="display: none;">
+      <section class="section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-badge">Opportunities Board</span>
+            <h2>Programmes &amp; Open Applications</h2>
+            <p>Join an active training cohort, apply for research fellowships, or register your school for our digital labs.</p>
+          </div>
+
+          <div class="opps-grid">
+            <!-- Opp 1 -->
+            <div class="opp-card">
+              <span class="opp-status-pill status-open">● Applications Open</span>
+              <h3>Tech4Teachers Digital Educator Certification</h3>
+              <p>A comprehensive 12-week blended training program for primary and secondary teachers seeking to integrate digital pedagogy, coding concepts, and offline tools into daily lessons.</p>
+              <div class="opp-meta-list">
+                <div class="opp-meta-item">📅 <strong>Cohort 4:</strong> Starts January 2027</div>
+                <div class="opp-meta-item">📍 <strong>Mode:</strong> Hybrid (Weekend Labs + Online)</div>
+                <div class="opp-meta-item">🏷️ <strong>Cost:</strong> Full Scholarship Available</div>
+              </div>
+              <button class="btn btn-primary open-application-btn" data-programme="Tech4Teachers Certification">Apply for Cohort 4</button>
+            </div>
+
+            <!-- Opp 2 -->
+            <div class="opp-card">
+              <span class="opp-status-pill status-open">● Open Call</span>
+              <h3>Youth Digital Tech Club Mentorship Fellowships</h3>
+              <p>Seeking passionate university computer science and engineering students to serve as club mentors guiding adolescent students in Python, web design, and robotics.</p>
+              <div class="opp-meta-list">
+                <div class="opp-meta-item">📅 <strong>Duration:</strong> 6 Months Stipend Fellowship</div>
+                <div class="opp-meta-item">📍 <strong>Locations:</strong> Regional Hub Centers</div>
+                <div class="opp-meta-item">🏷️ <strong>Slots:</strong> 30 Fellows Selected</div>
+              </div>
+              <button class="btn btn-primary open-application-btn" data-programme="Youth Club Mentor Fellowship">Apply for Fellowship</button>
+            </div>
+
+            <!-- Opp 3 -->
+            <div class="opp-card">
+              <span class="opp-status-pill status-closing-soon">⏳ Closing Soon</span>
+              <h3>Applied Research &amp; Policy Graduate Internships</h3>
+              <p>Hands-on research role assisting senior faculty with data analysis, field survey administration, and literature reviews in education and public health.</p>
+              <div class="opp-meta-list">
+                <div class="opp-meta-item">📅 <strong>Deadline:</strong> November 15, 2026</div>
+                <div class="opp-meta-item">📍 <strong>Department:</strong> Research &amp; Data Council</div>
+                <div class="opp-meta-item">🏷️ <strong>Eligibility:</strong> Postgraduates / Recent Grads</div>
+              </div>
+              <button class="btn btn-gold open-application-btn" data-programme="Graduate Research Internship">Submit Application</button>
+            </div>
+          </div>
+
+          <!-- Training and Event Listings -->
+          <div style="margin-top: 4rem;">
+            <h3 style="margin-bottom: 1.5rem; text-align: center;">Upcoming Training &amp; Event Listings</h3>
+            <div style="background: var(--bg-primary); border: 1px solid var(--border-light); border-radius: var(--radius-lg); overflow: hidden;">
+              <div style="padding: 1.25rem 1.75rem; border-bottom: 1px solid var(--border-light); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+                <div>
+                  <span style="font-weight: 800; font-size: 1.05rem;">Webinar: Artificial Intelligence in Sub-Saharan Classrooms</span>
+                  <p style="font-size: 0.85rem; color: var(--text-subtle);">Speakers: SiRI-Hub EdTech Directorate &amp; Regional Ministry Reps</p>
+                </div>
+                <span class="pub-type-badge">November 12, 2026</span>
+                <button class="btn btn-outline btn-sm open-application-btn" data-programme="AI in Classrooms Webinar">Register Free</button>
+              </div>
+
+              <div style="padding: 1.25rem 1.75rem; border-bottom: 1px solid var(--border-light); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+                <div>
+                  <span style="font-weight: 800; font-size: 1.05rem;">Community ASRHR Peer Facilitators Workshop</span>
+                  <p style="font-size: 0.85rem; color: var(--text-subtle);">3-Day intensive workshop on adolescent health rights and mental wellbeing</p>
+                </div>
+                <span class="pub-type-badge">December 4-6, 2026</span>
+                <button class="btn btn-outline btn-sm open-application-btn" data-programme="ASRHR Facilitators Workshop">Register Interest</button>
+              </div>
+
+              <div style="padding: 1.25rem 1.75rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+                <div>
+                  <span style="font-weight: 800; font-size: 1.05rem;">Annual Research &amp; Policy Summit 2026</span>
+                  <p style="font-size: 0.85rem; color: var(--text-subtle);">Executive convening on evidence-informed education policy</p>
+                </div>
+                <span class="pub-type-badge">December 18, 2026</span>
+                <button class="btn btn-primary btn-sm open-application-btn" data-programme="Annual Policy Summit">Request Invitation</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </div>
+
+    <!-- VIEW 5: RESEARCH & PUBLICATIONS -->
+    <div id="view-research" class="page-view" style="display: none;">
+      <section class="section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-badge">Knowledge Platform</span>
+            <h2>Research &amp; Publications Library</h2>
+            <p>Search, preview, and download empirical research reports, policy briefs, and field surveys.</p>
+          </div>
+
+          <!-- Search & Filter Bar -->
+          <div class="research-filter-bar">
+            <div class="research-search-box">
+              <span class="search-icon-pos">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+              </span>
+              <input type="text" id="pub-search-input" class="research-search-input" placeholder="Search by paper title, author, keyword, or topic...">
+            </div>
+
+            <div class="research-category-pills">
+              <button class="cat-pill-btn active" data-cat="all">All Documents</button>
+              <button class="cat-pill-btn" data-cat="policy-briefs">Policy Briefs</button>
+              <button class="cat-pill-btn" data-cat="technical-reports">Technical Reports</button>
+              <button class="cat-pill-btn" data-cat="baseline-surveys">Baseline Surveys</button>
+              <button class="cat-pill-btn" data-cat="working-papers">Working Papers</button>
+            </div>
+          </div>
+
+          <!-- Dynamic Publications List Container -->
+          <div class="publications-list" id="publications-list-container">
+            <!-- Populated via JavaScript with interactive Read & Download actions -->
+          </div>
+
+        </div>
+      </section>
+    </div>
+
+    <!-- VIEW 6: OUR IMPACT -->
+    <div id="view-impact" class="page-view" style="display: none;">
+      <section class="section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-badge">Accountability</span>
+            <h2>Verified Impact &amp; Beneficiary Stories</h2>
+            <p>Our commitment to verifiable evidence, data-driven milestones, and human-centered change.</p>
+          </div>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-bottom: 3.5rem;">
+            <div style="background: var(--bg-primary); border: 1px solid var(--border-light); padding: 2.5rem; border-radius: var(--radius-lg);">
+              <h3 style="margin-bottom: 1rem;">Verification &amp; Governance Charter</h3>
+              <p style="margin-bottom: 1rem;">
+                At SiRI-Hub, every statistic, student reached, and teacher certified is documented through encrypted field attendance registries, pre- and post-test assessments, and annual external monitoring audits.
+              </p>
+              <ul style="list-style: disc; padding-left: 1.25rem; font-size: 0.92rem; color: var(--text-muted); display: flex; flex-direction: column; gap: 0.5rem;">
+                <li>Pre- and post-intervention learning outcome assessments.</li>
+                <li>Digital biometric or verified token attendance in all teacher cohorts.</li>
+                <li>Anonymous participant feedback mechanisms to maintain safeguarding.</li>
+                <li>Open data transparency for verified academic researchers.</li>
+              </ul>
+            </div>
+
+            <div style="background: linear-gradient(135deg, var(--navy-900), var(--navy-800)); color: #ffffff; padding: 2.5rem; border-radius: var(--radius-lg); display: flex; flex-direction: column; justify-content: center;">
+              <div style="font-size: 2.5rem; margin-bottom: 0.5rem; color: var(--gold-400);">98.4%</div>
+              <h4 style="color: #ffffff; font-size: 1.3rem; margin-bottom: 0.5rem;">Educator Retention &amp; Active Tool Usage</h4>
+              <p style="color: #cbd5e1; font-size: 0.95rem;">
+                Over 98% of educators completing the Tech4Teachers certification report sustained, regular use of digital lesson planning and classroom tech six months post-graduation.
+              </p>
+            </div>
+          </div>
+
+          <!-- Beneficiary Testimonials -->
+          <h3 style="text-align: center; margin-bottom: 2rem;">Voices from the Field</h3>
+          <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem;">
+            <div style="background: var(--bg-primary); border: 1px solid var(--border-light); border-radius: var(--radius-md); padding: 1.75rem;">
+              <div style="font-size: 1.2rem; color: var(--gold-500); margin-bottom: 0.5rem;">★★★★★</div>
+              <p style="font-style: italic; font-size: 0.9rem; margin-bottom: 1.25rem;">
+                "Before Tech4Teachers, our computer lab sat locked because none of our staff had formal digital pedagogy training. Today, our students code simple physics models every week."
+              </p>
+              <div style="font-weight: 700; font-size: 0.95rem;">Grace W.</div>
+              <div style="font-size: 0.78rem; color: var(--text-subtle);">Lead Science Teacher, Machakos District</div>
+            </div>
+
+            <div style="background: var(--bg-primary); border: 1px solid var(--border-light); border-radius: var(--radius-md); padding: 1.75rem;">
+              <div style="font-size: 1.2rem; color: var(--gold-500); margin-bottom: 0.5rem;">★★★★★</div>
+              <p style="font-style: italic; font-size: 0.9rem; margin-bottom: 1.25rem;">
+                "In our Youth Tech Club, my team built a solar-powered soil moisture alert system for our school garden. It made me realize that girls belong at the front of technology."
+              </p>
+              <div style="font-weight: 700; font-size: 0.95rem;">Amina D., Age 16</div>
+              <div style="font-size: 0.78rem; color: var(--text-subtle);">Tech Club President, Kibera Youth Hub</div>
+            </div>
+
+            <div style="background: var(--bg-primary); border: 1px solid var(--border-light); border-radius: var(--radius-md); padding: 1.75rem;">
+              <div style="font-size: 1.2rem; color: var(--gold-500); margin-bottom: 0.5rem;">★★★★★</div>
+              <p style="font-style: italic; font-size: 0.9rem; margin-bottom: 1.25rem;">
+                "The ASRHR peer sessions created a safe space where our adolescents could discuss sensitive reproductive health concerns with dignity and accurate scientific facts."
+              </p>
+              <div style="font-weight: 700; font-size: 0.95rem;">Pastor John K.</div>
+              <div style="font-size: 0.78rem; color: var(--text-subtle);">Community Elder &amp; Youth Guardian</div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </div>
+
+    <!-- VIEW 7: PARTNERSHIPS -->
+    <div id="view-partnerships" class="page-view" style="display: none;">
+      <section class="section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-badge">Collaboration</span>
+            <h2>Strategic Partnerships &amp; Alliances</h2>
+            <p>Collaborating with ministries, universities, philanthropic foundations, and tech innovators.</p>
+          </div>
+
+          <div style="display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 3rem; margin-bottom: 3.5rem;">
+            <div>
+              <h3 style="margin-bottom: 1rem;">How We Partner</h3>
+              <p style="margin-bottom: 1.5rem;">
+                SiRI-Hub welcomes collaborative initiatives across research consortiums, school rollout co-funding, curriculum licensing, and public policy advisory.
+              </p>
+
+              <div style="display: flex; flex-direction: column; gap: 1.25rem;">
+                <div style="background: var(--bg-secondary); padding: 1.25rem; border-radius: var(--radius-md);">
+                  <h4 style="font-size: 1.05rem; margin-bottom: 0.25rem;">1. Government &amp; Public Education Ministries</h4>
+                  <p style="font-size: 0.85rem;">Mainstreaming teacher digital competencies into accredited national curriculum standards.</p>
+                </div>
+                <div style="background: var(--bg-secondary); padding: 1.25rem; border-radius: var(--radius-md);">
+                  <h4 style="font-size: 1.05rem; margin-bottom: 0.25rem;">2. Bilateral &amp; Philanthropic Foundations</h4>
+                  <p style="font-size: 0.85rem;">Multi-year grant partnerships backing the Big Five Pillars with transparent M&amp;E accountability.</p>
+                </div>
+                <div style="background: var(--bg-secondary); padding: 1.25rem; border-radius: var(--radius-md);">
+                  <h4 style="font-size: 1.05rem; margin-bottom: 0.25rem;">3. Tech Industry &amp; Hardware Donors</h4>
+                  <p style="font-size: 0.85rem;">Providing hardware testbeds, low-power laptops, microcontrollers, and cloud research computing.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Partner Enquiry Tracking Tool -->
+            <div style="background: var(--bg-primary); border: 1px solid var(--border-light); padding: 2rem; border-radius: var(--radius-lg); box-shadow: var(--shadow-md);">
+              <h4 style="margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--green-600)" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                <span>Partner Enquiry Tracking System</span>
+              </h4>
+              <p style="font-size: 0.84rem; margin-bottom: 1.25rem;">
+                Already submitted an institutional partnership concept or MoA enquiry? Enter your tracking reference to check review progress.
+              </p>
+
+              <div style="display: flex; gap: 0.5rem; margin-bottom: 1rem;">
+                <input type="text" id="track-enquiry-input" class="form-control" placeholder="e.g. SIRI-PART-2026-8849" value="SIRI-PART-2026-8849" style="font-size: 0.85rem;">
+                <button id="track-enquiry-btn" class="btn btn-navy btn-sm" style="flex-shrink: 0;">Check Status</button>
+              </div>
+
+              <div id="track-enquiry-result">
+                <!-- Status output populated on click -->
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </div>
+
+    <!-- VIEW 8: NEWS & INSIGHTS -->
+    <div id="view-news" class="page-view" style="display: none;">
+      <section class="section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-badge">Updates &amp; Articles</span>
+            <h2>News, Insights &amp; Field Reports</h2>
+            <p>Read about our ongoing projects, policy briefs, and community breakthroughs.</p>
+          </div>
+
+          <div class="news-grid">
+            <article class="news-card">
+              <div class="news-thumb-box">
+                <img src="assets/images/tech4teachers.jpg" alt="Teachers in computer workshop">
+              </div>
+              <div class="news-content">
+                <div class="news-meta">
+                  <span class="news-tag">Field Report</span>
+                  <span>October 24, 2026</span>
+                </div>
+                <h3>Evaluating Offline Blended Learning in Off-Grid Communities</h3>
+                <p>How low-cost localized micro-servers are keeping digital lesson plans active during rural power outages.</p>
+                <a href="#about" class="pillar-learn-more" style="color: var(--green-600);">Read Analysis →</a>
+              </div>
+            </article>
+
+            <article class="news-card">
+              <div class="news-thumb-box">
+                <img src="assets/images/tech4students.jpg" alt="Students in digital tech club">
+              </div>
+              <div class="news-content">
+                <div class="news-meta">
+                  <span class="news-tag">Club Showcase</span>
+                  <span>September 18, 2026</span>
+                </div>
+                <h3>Youth Tech Clubs Present Climate Sensor Prototypes to Local Council</h3>
+                <p>Students from 8 schools demonstrate environmental monitoring hardware built with open microcontrollers.</p>
+                <a href="#programmes" class="pillar-learn-more" style="color: var(--green-600);">Read Story →</a>
+              </div>
+            </article>
+
+            <article class="news-card">
+              <div class="news-thumb-box">
+                <img src="assets/images/asrhr-community.jpg" alt="Community youth health discussion">
+              </div>
+              <div class="news-content">
+                <div class="news-meta">
+                  <span class="news-tag">Health &amp; Rights</span>
+                  <span>August 30, 2026</span>
+                </div>
+                <h3>Breaking Stigmas: Community Dialogues on Adolescent Reproductive Health</h3>
+                <p>Engaging 500+ caregivers and youth leaders in respectful conversations on teenage wellbeing.</p>
+                <a href="#about" class="pillar-learn-more" style="color: var(--green-600);">Explore Findings →</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- VIEW 9: CONTACT US & PARTNERSHIP ENQUIRY -->
+    <div id="view-contact" class="page-view" style="display: none;">
+      <section class="section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-badge">Get in Touch</span>
+            <h2>Contact Us &amp; Partnership Enquiries</h2>
+            <p>Our directorates welcome inquiries, research proposals, and collaboration requests.</p>
+          </div>
+
+          <div class="contact-layout">
+            <!-- Left Info Panel -->
+            <div class="contact-info-panel">
+              <div>
+                <h3 style="color: #ffffff;">SiRI-Hub Secretariat</h3>
+                <p>
+                  Connecting policy makers, educators, and youth to high-impact digital solutions and rigorous research.
+                </p>
+
+                <div class="contact-channels">
+                  <div class="contact-item">
+                    <div class="contact-icon-box">📍</div>
+                    <div>
+                      <div class="contact-item-title">Headquarters</div>
+                      <div class="contact-item-val">Sierra Research &amp; Innovation Hub, Freetown, Sierra Leone</div>
+                    </div>
+                  </div>
+
+                  <div class="contact-item">
+                    <div class="contact-icon-box">✉️</div>
+                    <div>
+                      <div class="contact-item-title">Email Enquiries</div>
+                      <div class="contact-item-val"><a href="mailto:sirihubsl@gmail.com" style="color:inherit;">sirihubsl@gmail.com</a></div>
+                    </div>
+                  </div>
+
+                  <div class="contact-item">
+                    <div class="contact-icon-box">📞</div>
+                    <div>
+                      <div class="contact-item-title">Telephone Desk</div>
+                      <div class="contact-item-val">+232 99142118</div>
+                    </div>
+                  </div>
+
+                  <div class="contact-item">
+                    <div class="contact-icon-box">⏰</div>
+                    <div>
+                      <div class="contact-item-title">Secretariat Hours</div>
+                      <div class="contact-item-val">Monday – Friday: 08:30 – 17:30 EAT</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div style="padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.15);">
+                <div style="font-size: 0.8rem; color: #94a3b8;">Data Protection &amp; Confidentiality Guarantee</div>
+                <div style="font-size: 0.76rem; color: #cbd5e1; margin-top: 0.25rem;">
+                  All communications are handled according to the SiRI-Hub Data Governance and Safeguarding Policies.
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Interactive Form Panel -->
+            <div class="contact-form-panel">
+              <div class="form-toggle-tabs" role="tablist">
+                <button class="form-tab-btn active" data-mode="general">General Contact</button>
+                <button class="form-tab-btn" data-mode="partnership">Strategic Partnership Proposal</button>
+              </div>
+
+              <form id="contact-form">
+                <input type="hidden" id="form-inquiry-type" value="General Enquiry">
+
+                <div class="form-grid">
+                  <div class="form-group">
+                    <label class="form-label" for="contact-name">Full Name *</label>
+                    <input type="text" id="contact-name" class="form-control" placeholder="Dr. / Mr. / Ms. Full Name" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label" for="contact-email">Official Email Address *</label>
+                    <input type="email" id="contact-email" class="form-control" placeholder="name@organization.org" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label" for="contact-org">Organization / Institution</label>
+                    <input type="text" id="contact-org" class="form-control" placeholder="Ministry / University / Foundation">
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label" for="contact-pillar">Area of Interest / Pillar</label>
+                    <select id="contact-pillar" class="form-control">
+                      <option value="General">General Inquiries</option>
+                      <option value="Pillar 1">Pillar 1: Digital Education (Tech4Teachers)</option>
+                      <option value="Pillar 2">Pillar 2: ASRHR &amp; Community Wellbeing</option>
+                      <option value="Pillar 3">Pillar 3: Applied Research &amp; Policy</option>
+                      <option value="Pillar 4">Pillar 4: Youth Tech Clubs &amp; Robotics</option>
+                      <option value="Pillar 5">Pillar 5: Institutional Strategic Partnerships</option>
+                    </select>
+                  </div>
+
+                  <div class="form-group full-width">
+                    <label class="form-label" for="contact-subject">Subject *</label>
+                    <input type="text" id="contact-subject" class="form-control" placeholder="Summary of your inquiry or proposed collaboration" required>
+                  </div>
+
+                  <div class="form-group full-width">
+                    <label class="form-label" for="contact-msg">Message / Proposal Details *</label>
+                    <textarea id="contact-msg" class="form-control" placeholder="Provide background on your inquiry, scope, or questions..." required></textarea>
+                  </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary" style="width: 100%;">
+                  <span>Submit Message &amp; Generate Tracking Reference</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </button>
+
+                <div id="contact-form-feedback"></div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </div>
+
+  </main>
+
+  <!-- ======================================================================
+       SITE FOOTER
+       ====================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#home" class="brand-logo-wrap" style="margin-bottom: 1rem; display: inline-flex;">
+            <img src="assets/images/siri-hub-logo-dark.svg" alt="Sierra Research &amp; Innovation Hub Logo" class="brand-logo-img" style="height: 56px; width: auto;">
+          </a>
+          <p>
+            <strong>Research. Innovate. Impact. &bull; Est. 2025</strong><br>
+            Sierra Research &amp; Innovation Hub &bull; Bridging rigorous empirical research and digital empowerment for youth and educators across Africa.
+          </p>
+          <div class="footer-socials">
+            <a href="#" class="social-btn" aria-label="LinkedIn">in</a>
+            <a href="#" class="social-btn" aria-label="X / Twitter">𝕏</a>
+            <a href="#" class="social-btn" aria-label="YouTube">▶</a>
+            <a href="#" class="social-btn" aria-label="GitHub">⚙</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>About Us</h4>
+          <div class="footer-links-list">
+            <a href="#about" onclick="switchAboutTab('tab-who-we-are')">Who We Are</a>
+            <a href="#about" onclick="switchAboutTab('tab-history')">History &amp; Background</a>
+            <a href="#about" onclick="switchAboutTab('tab-vision-mission')">Vision &amp; Values</a>
+            <a href="#about" onclick="switchAboutTab('tab-theory-of-change')">Theory of Change</a>
+            <a href="#about" onclick="switchAboutTab('tab-team')">Team &amp; Departments</a>
+            <a href="#about" onclick="switchAboutTab('tab-policies')">Institutional Policies</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>The Big Five Pillars</h4>
+          <div class="footer-links-list">
+            <a href="#focus-areas">Digital Education &amp; Skills</a>
+            <a href="#focus-areas">ASRHR &amp; Wellbeing</a>
+            <a href="#focus-areas">Applied Research &amp; Policy</a>
+            <a href="#focus-areas">Youth Tech Clubs</a>
+            <a href="#focus-areas">Strategic Partnerships</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Four Key Projects</h4>
+          <div class="footer-links-list">
+            <a href="#project-tech4teachers">Tech4Teachers</a>
+            <a href="#project-tech4students">Tech4Student Clubs</a>
+            <a href="#project-asrhr">ASRHR Community Dev</a>
+            <a href="#project-research">Research &amp; Policy Summits</a>
+            <a href="#programmes">Open Opportunities</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Platform &amp; Readiness</h4>
+          <div class="footer-links-list">
+            <a href="#research">Publication Library</a>
+            <a href="#impact">Verified Impact</a>
+            <a href="#contact">Contact &amp; Proposal Form</a>
+            <a href="javascript:void(0)" class="setup-launcher-btn" style="margin-top: 0.5rem; display: inline-flex;">
+              Setup Preferences
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 SiRI-Hub. All rights reserved. Research. Innovate. Impact.</div>
+        <div class="footer-bottom-links">
+          <a href="#about" onclick="switchAboutTab('tab-policies')">Child Safeguarding</a>
+          <a href="#about" onclick="switchAboutTab('tab-policies')">Research Ethics</a>
+          <a href="#about" onclick="switchAboutTab('tab-policies')">Privacy Charter</a>
+          <a href="#contact">Site Map</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ======================================================================
+       MODAL 1: PUBLICATION VIEWER & CITATION
+       ====================================================================== -->
+  <div class="modal-overlay" id="pub-modal" role="dialog" aria-modal="true" aria-labelledby="pub-modal-title">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3 id="pub-modal-title">
+          <span>Research Brief &amp; Abstract</span>
+        </h3>
+        <button class="modal-close-btn" id="pub-modal-close" aria-label="Close modal">✕</button>
+      </div>
+      <div class="modal-body" id="pub-modal-details">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       MODAL 2: INTERACTIVE PROGRAMME APPLICATION / REGISTRATION
+       ====================================================================== -->
+  <div class="modal-overlay" id="application-modal" role="dialog" aria-modal="true" aria-labelledby="app-modal-title">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3 id="app-modal-title">
+          <span>Programme Application &amp; Registration</span>
+        </h3>
+        <button class="modal-close-btn" id="app-modal-close" aria-label="Close application modal">✕</button>
+      </div>
+
+      <div class="modal-body">
+        <form id="programme-application-form">
+          <div style="background: var(--bg-secondary); padding: 1rem; border-radius: var(--radius-md); margin-bottom: 1.5rem; font-size: 0.85rem; border-left: 4px solid var(--green-600);">
+            Please fill in your details below to register for active SiRI-Hub cohorts, fellowships, or teacher modules. An instant submission receipt will be generated.
+          </div>
+
+          <div class="form-grid">
+            <div class="form-group full-width">
+              <label class="form-label" for="app-track-select">Selected Programme Track *</label>
+              <select id="app-track-select" class="form-control" required>
+                <option value="Tech4Teachers Cohort 4">Tech4Teachers Digital Educator Certification (Cohort 4)</option>
+                <option value="Youth Club Mentor Fellowship">Youth Digital Tech Club Mentorship Fellowship</option>
+                <option value="Graduate Research Internship">Applied Research &amp; Policy Graduate Internship</option>
+                <option value="AI in Classrooms Webinar">Webinar: AI in Sub-Saharan Classrooms</option>
+                <option value="General Registration">General Opportunities Pool</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="app-name">Applicant Full Name *</label>
+              <input type="text" id="app-name" class="form-control" placeholder="Jane Doe" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="app-email">Email Address *</label>
+              <input type="email" id="app-email" class="form-control" placeholder="jane@example.org" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="app-phone">Phone / WhatsApp Number *</label>
+              <input type="tel" id="app-phone" class="form-control" placeholder="+254 700 000 000" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="app-school">Current School / Institution *</label>
+              <input type="text" id="app-school" class="form-control" placeholder="School or University Name" required>
+            </div>
+
+            <div class="form-group full-width">
+              <label class="form-label" for="app-statement">Brief Statement of Motivation *</label>
+              <textarea id="app-statement" class="form-control" placeholder="Why are you applying for this programme and how will it benefit your students or community?" required></textarea>
+            </div>
+          </div>
+
+          <div style="margin-top: 1.5rem; display: flex; justify-content: flex-end; gap: 0.75rem;">
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              <span>Submit Application &amp; Generate Reference ID</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            </button>
+          </div>
+        </form>
+
+        <div id="application-success-view" style="display: none;"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       MODAL 3: SECTION 7 — SiRI-HUB SETUP & LAUNCH READINESS CHECKLIST
+       ====================================================================== -->
+  <div class="modal-overlay" id="setup-readiness-modal" role="dialog" aria-modal="true" aria-labelledby="setup-modal-title">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3 id="setup-modal-title">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--gold-500)" stroke-width="2.2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          <span>SiRI-Hub Website Setup &amp; Launch Readiness (Section 7)</span>
+        </h3>
+        <button class="modal-close-btn" id="setup-modal-close" aria-label="Close setup modal">✕</button>
+      </div>
+
+      <div class="modal-body">
+        <p style="margin-bottom: 1.5rem; font-size: 0.92rem; color: var(--text-muted);">
+          To turn this design into a real, functioning web deployment for SiRI-Hub, review your preferences and launch roadmap below:
+        </p>
+
+        <!-- Question 1: Platform -->
+        <div class="setup-question-block">
+          <div class="setup-question-title">
+            <span style="background: var(--green-100); color: var(--green-600); width: 22px; height: 22px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 0.75rem;">1</span>
+            <span>Preferred Website Platform</span>
+          </div>
+          <div class="setup-options-group">
+            <label class="setup-radio-label">
+              <input type="radio" name="pref-platform" value="wordpress" checked>
+              <span>WordPress — Easier for staff content updates</span>
+            </label>
+            <label class="setup-radio-label">
+              <input type="radio" name="pref-platform" value="custom-code">
+              <span>Custom Code — More development flexibility</span>
+            </label>
+            <label class="setup-radio-label">
+              <input type="radio" name="pref-platform" value="hybrid-recommendation">
+              <span>Recommend Best Option for SiRI-Hub</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Question 2: Domain and hosting -->
+        <div class="setup-question-block">
+          <div class="setup-question-title">
+            <span style="background: var(--gold-100); color: var(--gold-600); width: 22px; height: 22px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 0.75rem;">2</span>
+            <span>Domain &amp; Hosting Status</span>
+          </div>
+          <div class="setup-options-group">
+            <label class="setup-radio-label">
+              <input type="radio" name="pref-hosting" value="already-have">
+              <span>I already have domain &amp; hosting</span>
+            </label>
+            <label class="setup-radio-label">
+              <input type="radio" name="pref-hosting" value="need-hosting">
+              <span>I need domain &amp; hosting</span>
+            </label>
+            <label class="setup-radio-label">
+              <input type="radio" name="pref-hosting" value="guidance" checked>
+              <span>I need guidance before choosing</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Question 3: Official Logo -->
+        <div class="setup-question-block">
+          <div class="setup-question-title">
+            <span style="background: var(--green-100); color: var(--green-600); width: 22px; height: 22px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 0.75rem;">3</span>
+            <span>Official Logo Asset</span>
+          </div>
+          <div class="setup-options-group">
+            <label class="setup-radio-label">
+              <input type="radio" name="pref-logo" value="official" checked>
+              <span>We have official SVG / transparent vector logo</span>
+            </label>
+            <label class="setup-radio-label">
+              <input type="radio" name="pref-logo" value="need-design">
+              <span>We need official logo designed</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Question 4: Photographs -->
+        <div class="setup-question-block">
+          <div class="setup-question-title">
+            <span style="background: #e0f2fe; color: #0284c7; width: 22px; height: 22px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 0.75rem;">4</span>
+            <span>Organisational Photographs</span>
+          </div>
+          <div class="setup-options-group">
+            <label class="setup-radio-label">
+              <input type="radio" name="pref-photos" value="have-all">
+              <span>We have official activity photographs with consent</span>
+            </label>
+            <label class="setup-radio-label">
+              <input type="radio" name="pref-photos" value="have-some" checked>
+              <span>We have some photographs</span>
+            </label>
+            <label class="setup-radio-label">
+              <input type="radio" name="pref-photos" value="need-initial">
+              <span>We need suitable images for the initial launch</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Phased Implementation Plan -->
+        <h4 style="margin: 1.5rem 0 0.5rem; font-size: 1.05rem;">Phased Implementation Roadmap</h4>
+        <div class="setup-phases-roadmap">
+          <div class="phase-card active-phase">
+            <span class="phase-badge">Phase 1 &bull; Active in MVP</span>
+            <h5 style="margin-bottom: 0.25rem;">Essential Website</h5>
+            <p>Homepage, 9-item dropdown navigation, Big Five Pillars, 4 project showcases, verified counters, contact forms.</p>
+          </div>
+
+          <div class="phase-card">
+            <span class="phase-badge" style="color: var(--gold-600);">Phase 2 &bull; Ready</span>
+            <h5 style="margin-bottom: 0.25rem;">Programmes &amp; Apps</h5>
+            <p>Interactive application modal, training events listings, course registration reference generator.</p>
+          </div>
+
+          <div class="phase-card">
+            <span class="phase-badge" style="color: var(--pillar-3);">Phase 3 &bull; Integrated</span>
+            <h5 style="margin-bottom: 0.25rem;">Research Platform</h5>
+            <p>Searchable publication library, citation copier, simulated PDF briefs, partner tracking system.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="modal-footer">
+        <button id="export-plan-btn" class="btn btn-primary btn-sm">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          <span>Copy Implementation Summary</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast-container" aria-live="polite"></div>
+
+  <!-- Application Logic -->
+  <script src="assets/js/app.js"></script>
+
+  <!-- Inline Helper for Tab Switching -->
+  <script>
+    function switchAboutTab(tabId) {
+      setTimeout(() => {
+        const btn = document.querySelector(`.about-tab-btn[data-tab="${tabId}"]`);
+        if (btn) btn.click();
+      }, 50);
+    }
+    function switchContactMode(mode) {
+      setTimeout(() => {
+        const tab = document.querySelector(`.form-tab-btn[data-mode="${mode}"]`);
+        if (tab) tab.click();
+      }, 50);
+    }
+    function filterResearchCat(cat) {
+      setTimeout(() => {
+        const catBtn = document.querySelector(`.cat-pill-btn[data-cat="${cat}"]`);
+        if (catBtn) catBtn.click();
+      }, 50);
+    }
+  </script>
+</body>
+</html>
